@@ -411,6 +411,15 @@ you can use the generic selector below, but it's slower:
   width: 900px;
   *zoom: 1;
 }
+.search-row {
+  margin-left: 50%;
+  margin-right: Auto;
+  padding-bottom: 30px;
+  padding-top:  10px;
+  width: 900px;
+  *zoom: 1;
+}
+
 .demo-row:before,
 .demo-row:after {
   display: table;
@@ -577,7 +586,7 @@ you can use the generic selector below, but it's slower:
 }
 #search-query-2,
 #search-query-5 {
-  width: 211px;
+  width: 600px;
 }
 #search-query-3 {
   width: 216px;
@@ -685,7 +694,7 @@ textarea {
   font-size: 14px;
 }
 a {
-  color: #1abc9c;
+  color: #34495e;
   text-decoration: none;
   -webkit-transition: 0.25s;
   -moz-transition: 0.25s;
@@ -694,8 +703,8 @@ a {
   -webkit-backface-visibility: hidden;
 }
 a:hover {
-  color: #2ecc71;
   text-decoration: none;
+  color: #2c3e50;
 }
 h1,
 .h1 {
@@ -733,8 +742,9 @@ h5,
 .h5,
 h6,
 .h6 {
-  line-height: 1.2em;
+  line-height: 1em;
 }
+
 h1 {
   font-weight: 700;
 }
@@ -751,6 +761,7 @@ h4 {
   font-weight: 500;
   margin-top: 4px;
 }
+
 h5 {
   font-weight: 500;
 }

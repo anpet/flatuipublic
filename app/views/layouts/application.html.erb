@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Flat UI</title>
+    <title>고로케</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Loading Bootstrap -->
@@ -18,7 +18,24 @@
     <![endif]-->
   </head>
   <body>
+    <div class="navbar">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target="#nav-collapse-01">
+          </button>
+          <%= link_to " ", "/golocat/index", :class => "brand fui-eye" %>
+          <div class="nav-collapse collapse" id="nav-collapse-01">
+            <ul class="nav">
+              <li class="active"><%= link_to "Elements", "/home/index"%></li>
+              <li><%= link_to "찾기", "/golocat/index"%></li>
+              <li><%= link_to "내 로케", "/golocat/mypage"%></li>
+              <li><%= link_to "묻고답하기", "/golocat/qanda"%></li>
+            </ul> <!-- /nav -->
 
+         </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
     <%= yield %>
 
     <!-- Load JS here for greater good =============================-->
