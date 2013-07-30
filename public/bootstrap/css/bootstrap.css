@@ -5463,6 +5463,17 @@ li.li-justify {
   margin-left: 20px;
 }
 
+.thumb-content {
+  background-color:rgb(250, 250, 250);
+  border-top: 1px solid #F1F1F1;
+  border-right: #E7E6E6;
+  border-left:  #E7E6E6;
+  border-radius: 6px;
+  border-bottom: 1px solid #CFCFCF;
+  margin: 0 auto;
+  padding:  30px;
+}
+
 
 .thumbnail {
   display: block;
