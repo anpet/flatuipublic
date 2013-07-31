@@ -36,3 +36,7 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'debugger'
+#
+group :development do
+  gem 'webrick', '~> 1.3.1'
+end
