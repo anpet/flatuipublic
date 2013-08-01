@@ -4334,10 +4334,14 @@ li.li-center {
   text-align: center;
 }
 
-li.li-justify {
-  text-align: justify;
+li.li-left {
+  text-align: left;
 }
 
+.row-fluid .span6 {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
 .nav-collapse.collapse {
   height: auto;
   overflow: visible;
